@@ -17,18 +17,18 @@ The basic Maven Project (directory structure) was created using:
 `mvn archetype:generate -DgroupId=academy.ausgrads.example -DartifactId=HibernateExample -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false`
 
 The source files consist of:
-`.
-└── java
-    └── academy
-        └── ausgrads
-            └── example
-                ├── entity
-                │   └── Name.java			- The Java Class we want to save into DB
-                └── hibernate
-                    ├── HibernateUtil.java		- A Utility Class 
-                    ├── SessionSaveExample.java		- Example 1 - "Save"
-                    ├── SessionPersistExample.java	- Example 2 - "Persist"
-                    └── SessionSaveOrUpdateExample.java - Example 3 - "SaveOrUpdate"`
+>.
+>└── java
+>    └── academy
+>        └── ausgrads
+>            └── example
+>                ├── entity
+>                │   └── Name.java			- The Java Class we want to save into DB
+>                └── hibernate
+>                    ├── HibernateUtil.java		- A Utility Class 
+>                    ├── SessionSaveExample.java		- Example 1 - "Save"
+>                    ├── SessionPersistExample.java	- Example 2 - "Persist"
+>                    └── SessionSaveOrUpdateExample.java - Example 3 - "SaveOrUpdate"
 
 ## How to use / run these examples
 
