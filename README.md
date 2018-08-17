@@ -17,18 +17,18 @@ The basic Maven Project (directory structure) was created using:
 `mvn archetype:generate -DgroupId=academy.ausgrads.example -DartifactId=HibernateExample -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false`
 
 The source files consist of:
->.
->└── java
->    └── academy
->        └── ausgrads
->            └── example
->                ├── entity
->                │   └── Name.java			- The Java Class we want to save into DB
->                └── hibernate
->                    ├── HibernateUtil.java		- A Utility Class 
->                    ├── SessionSaveExample.java		- Example 1 - "Save"
->                    ├── SessionPersistExample.java	- Example 2 - "Persist"
->                    └── SessionSaveOrUpdateExample.java - Example 3 - "SaveOrUpdate"
+```.
+└── java
+    └── academy
+        └── ausgrads
+            └── example
+                ├── entity
+                │   └── Name.java			- The Java Class we want to save into DB
+                └── hibernate
+                    ├── HibernateUtil.java		- A Utility Class 
+                    ├── SessionSaveExample.java		- Example 1 - "Save"
+                    ├── SessionPersistExample.java	- Example 2 - "Persist"
+                    └── SessionSaveOrUpdateExample.java - Example 3 - "SaveOrUpdate"```
 
 ## How to use / run these examples
 
@@ -37,7 +37,7 @@ There are 3 files that you can execute:
 ### Preparation
 Before running these you should:
 
-(a) make sure your MySQL database is running, and if necessary change the source code in HibernateUtil.java to reflect the correct URL, PORT, DATABASE NAME, USER and PASSWORD for your database. Note, normally this kind of configuration would be "externalised", that is, put into a config file which is read by the application. But for this simple example it is included in the Java code.
+(a) make sure your MySQL database is running, and if necessary change the source code in HibernateUtil.java to reflect the correct URL, PORT, DATABASE NAME, USER and PASSWORD for your database. **Note: normally this kind of configuration would be "externalised", that is, put into a config file which is read by the application. But for this simple example it is included in the Java code.**
 
 (b) open a connection to your database using the same USER that the program will be using, and switch ("use") the same database the program will be using. Initially check to see what tables exist in the database ("show tables;")
 
